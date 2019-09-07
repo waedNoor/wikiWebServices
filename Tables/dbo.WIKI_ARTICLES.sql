@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[WIKI_ARTICLES]
+(
+[NS] [int] NULL,
+[TITLE] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[PAGEID] [int] NULL,
+[SIZE] [int] NULL,
+[WORDCOUNT] [int] NULL,
+[SNIPPET] [varchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[TIMESTAMP] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]
+GO
