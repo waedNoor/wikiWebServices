@@ -16,8 +16,8 @@ as above api we search in retrieved data in db to find articles based on title a
 
 https://github.com/waedNoor/wikiWebServices/wikiApi/wordCount/{function}
 as above api we do statistics about articles including :min, max,Mid size of articles based on "wordCount + total of all word counts.
-if you hit "https://github.com/waedNoor/wikiWebServices/wikiApi/wordCount/max", this api will return the biggest size of (word count + total of word counts)
-Also if you hit "https://github.com/waedNoor/wikiWebServices/wikiApi/wordCount/min", this api will return the Smallest size of (word count + total of word counts)
-And if you hit  "https://github.com/waedNoor/wikiWebServices/wikiApi/wordCount/mid", this api will return the midian size of (word count + total of word counts) in this api i suppose the middle value depend on the number of articles that's retrieved
+if you hit "/wikiWebServices/wikiApi/wordCount/max", this api will return the biggest size of (word count + total of word counts)
+Also if you hit /wikiWebServices/wikiApi/wordCount/min", this api will return the Smallest size of (word count + total of word counts)
+And if you hit  /wikiWebServices/wikiApi/wordCount/mid", this api will return the midian size of (word count + total of word counts) in this api i suppose the middle value depend on the number of articles that's retrieved
 i meant if number of articles is odd , the midian value is the middle one
 but if number of articles are not odd , the median value is the "the two word counts in the middle ".
